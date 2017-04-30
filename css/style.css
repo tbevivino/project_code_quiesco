@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai:400,700');
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arima Madurai', cursive, sans-serif;
+    
+}
+
+/* banner styles ====================================== */
+
+.banner {
+    width: 100%;
+    height: 250px;
+    position: relative; /*allows absolute positioning of banner h1 on the banner*/
+    background: url(../images/banner2.jpg); /*code for background image*/
+    background-size: cover; /*causes image to resize with browser size*/
+}
+
+.banner h1 {
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    margin: 0px;
+    left: 350px;
+    top: 25px;
+}
+
+.banner h1 a {
+    color: white;
+    text-decoration: none;
+}
+
+.banner h1 a:hover {
+    color: #8B9592;
+    font-weight: bold;
+    font-size: 94px;
+    
+}
+
+.banner h2 {
+    color: white;
+    font-size: 22px;
+    position: absolute;
+    margin: 0px;
+    left: 365px;
+    top: 150px;
+    text-indent: 40px;
+}
+
+/* nav styles=================================== */
+
+.safety-nav ul {
+    list-style: none;
+    overflow: auto;
+    background: #037172;
+    padding: 5px 0px;
+    
+}
+
+.safety-nav ul li {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.safety-nav ul li a {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+.safety-nav ul li a:hover {
+    font-size: 20px;
+    color: #8B9592;
+    font-weight: bold;
+}
+
+.main-nav ul {
+    list-style: none; /*removes bullet points*/
+    overflow: auto; /*this allows height to be set to these floated elements*/
+    background: #20AE8E;
+    /*padding: 5px 0px; didn't need the padding for this*/
+    /*margin: 5px 0px; I prefer this without the margin*/
+    
+}
+
+.main-nav ul li {
+    width: 33%;
+    float: left;
+    text-align: center;
+    
+}
+
+.main-nav ul li a {
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav ul li a:hover {
+    font-size: 26px;
+    color: #8B9592;
+    font-weight: bold;
+}
+
+/*main content styles=================================== */
+
+body {
+    background-color: #FFF8F5;
+}
+
+.content {
+    background-color: #FFF8F5;
+    width: 80%;
+    /* height: 800px; removed height since content will define height*/
+    float: left;
+    padding: 25px 25px 25px 50px;
+}
+
+.content p1 {
+    margin-top: 20px;
+    font-size: 20px;
+    text-indent: 25px;
+}
+
+.content ul li {
+    list-style: circle;
+    margin-left: 50px;
+}
+
+.content a {
+    color: #20AE8E;
+    text-decoration: none;
+}
+
+.content a:hover {
+    color: #8B9592;
+    font-weight: bold;
+}
+
+.safety-image img {
+    display:block;
+    margin:auto;
+}
+
+.select-safety {
+    background-color: #FFF8F5;
+    width: 65%;
+    float: left;
+    margin: auto;
+    margin-left: 170px;
+}
+
+.select-safety p1 {
+    margin-top: 20px;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/*main content isi page styles=================================== */
+
+.isi-page {
+    background-color: #FFF8F5;
+    width: 100%;
+    /* height: 800px; removed height since content will define height*/
+    float: left;
+    padding: 25px 25px 25px 50px;
+}
+
+.isi-page p1 {
+    margin-top: 20px;
+    font-size: 20px;
+    text-indent: 25px;
+}
+
+.isi-page ul li {
+    list-style: circle;
+    margin-left: 50px;
+}
+
+.isi-page a {
+    color: #20AE8E;
+    text-decoration: none;
+}
+
+.isi-page a:hover {
+    color: #8B9592;
+    font-weight: bold;
+}
+
+
+/*ISI tray style================================ */
+
+.isi-tray { 
+    background-color: #FFF8F5;
+    width: 20%;
+    float: left;
+    border-left: 2px solid #20AE8E;
+    padding: 25px;
+}
+
+.isi-tray p1 {
+    font-size: 20px;
+}
+
+.isi-tray a {
+    color: #20AE8E;
+    text-decoration: none;
+}
+
+.isi-tray a:hover {
+    color: #8B9592;
+    font-weight: bold;
+}
+
+/*footer styles================================ */
+
+footer {
+    background-color: #037172;
+    width: 100%;
+    clear: both;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
